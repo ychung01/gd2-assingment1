@@ -1,0 +1,681 @@
+.wrapper{
+	display: grid;
+	margin-top: 0;
+	margin-bottom: 0;
+	grid-template-columns: repeat (2, 1fr);
+	grid-template-rows: repeat;
+	grid-template-areas: 
+	"odd1 even1"
+	"odd2 even2"
+	"odd3 even3"
+
+}
+
+h2 {
+	font-size: 110px;
+	color: white;
+	font-family: futura;
+	position: relative;
+	z-index: 2;	
+}
+
+.image-box {
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+	text-align: center;
+	background-position: center;
+	
+}
+
+
+.odd1 {
+	background-image: url(lyrics/1.jpg) ;
+}
+
+.even1 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.odd2 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.even2 {
+	background-image: url(lyrics/12.jpg);
+}
+
+.odd3 {
+	background-image: url(lyrics/short.gif );
+}
+
+.even3 {
+	background-image: url(lyrics/3.jpg);
+}
+
+.odd4 {
+	background-image: url(lyrics/8.jpg);
+}
+
+.even4 {
+	background-image: url(lyrics/13.jpg);
+}
+
+.odd5 {
+	background-image: url(lyrics/short2.gif);
+}
+
+.even5 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.odd6 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.even6 {
+	background-image: url(lyrics/10.jpg);
+}
+
+.odd7 {
+	background-image: url(lyrics/short3.gif);
+}
+
+.even7 {
+	background-image: url(lyrics/8.jpg );
+}
+
+.odd8 {
+	background-image: url(lyrics/3.jpg);
+}
+
+.even8 {
+	background-image: url(lyrics/8.jpg);
+}
+
+.odd9 {
+	background-image: url(lyrics/16.jpg);
+}
+
+.even9 {
+	background-image: url(lyrics/10.jpg);
+}
+
+.odd10 {
+	background-image: url(lyrics/short4.gif);
+}
+
+.even10 {
+	background-image: url(lyrics/1.jpg);
+}
+
+
+.odd11 {
+	background-image: url(lyrics/9.jpg);
+}
+
+.even11 {
+	background-image: url(lyrics/8.jpg);
+}
+
+
+.odd12 {
+	background-image: url(lyrics/short.gif);
+}
+
+.even12 {
+	background-image: url(lyrics/13.jpg);
+}
+
+
+.odd13 {
+	background-image: url(lyrics/4.jpg);
+}
+
+.even13 {
+	background-image: url(lyrics/7.jpg);
+}
+
+
+.odd14 {
+	background-image: url(lyrics/short4.gif);
+}
+
+.even14 {
+	background-image: url(lyrics/8.jpg);
+}
+
+.odd15 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.even15 {
+	background-image: url(lyrics/12.jpg);
+}
+
+
+.odd16 {
+	background-image: url(lyrics/13.jpg);
+}
+
+.even16 {
+	background-image: url(lyrics/2.jpg);
+}
+
+.odd17 {
+	background-image: url(lyrics/18.jpg);
+}
+
+.even17 {
+	background-image: url(lyrics/15.jpg);
+}
+
+.odd18 {
+	background-image: url(lyrics/short2.gif);
+}
+
+.even18 {
+	background-image: url(lyrics/1.jpg);
+}
+
+.odd19 {
+	background-image: url(lyrics/2.jpg);
+}
+
+.even19 {
+	background-image: url(lyrics/5.jpg);
+}
+
+.odd20 {
+	background-image: url(lyrics/short77.gif);
+}
+
+.even20 {
+	background-image: url(lyrics/long1.gif);
+}
+
+
+.odd22 {
+	background-image: url(lyrics/9.jpg);
+}
+
+.even22 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.odd23 {
+	background-image: url(lyrics/1.jpg);
+}
+
+.even23 {
+	background-image: url(lyrics/4.jpg);
+}
+
+.odd24 {
+	background-image: url(lyrics/2.jpg);
+}
+
+.even24 {
+	background-image: url(lyrics/15.jpg);
+}
+
+.odd25 {
+	background-image: url(lyrics/16.jpg);
+}
+
+.even25 {
+	background-image: url(lyrics/13.jpg);
+}
+
+.odd26 {
+	background-image: url(lyrics/3.jpg);
+}
+
+.even26 {
+	background-image: url(lyrics/10.jpg);
+}
+
+.odd27 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.even27 {
+	background-image: url(lyrics/8.jpg);
+}
+
+
+
+.odd28 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.even28 {
+	background-image: url(lyrics/long3.gif);
+}
+
+
+
+
+
+
+
+
+.odd30 {
+	background-image: url(lyrics/1.jpg);
+}
+
+.even30 {
+	background-image: url(lyrics/15.jpg);
+}
+
+
+.odd31 {
+	background-image: url(lyrics/5.jpg);
+}
+
+.even31 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.odd32 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even32 {
+	background-image: url(lyrics/16.jpg);
+}
+
+.odd33 {
+	background-image: url(lyrics/12.jpg);
+}
+
+.even33 {
+	background-image: url(lyrics/17.jpg);
+}
+
+.odd34 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even34 {
+	background-image: url(lyrics/8.jpg);
+}
+
+
+.odd35 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.even35 {
+	background-image: url(lyrics/15.jpg);
+}
+
+.odd36 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even36 {
+	background-image: url(lyrics/8.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+.image-box-:before {
+	content: "";
+	position:absolute;
+	top: 40px;
+	bottom: 40px;
+	left: 40px;
+	right: 40px;
+	background-color: rgba(255,0,255,.3);
+}
+
+.image-box-blank2:before {
+	content: "";
+	position:absolute;
+	top: 20px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	background-color: rgba(0,200,5,0);
+
+
+}
+
+.image-box-blank2 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+	text-align: center;
+	height: 800px;
+}
+
+
+
+
+
+
+
+
+
+.odd37 {
+	background-image: url(lyrics/9.jpg);
+}
+
+.even37 {
+	background-image: url(lyrics/11.jpg);
+}
+
+
+.odd38 {
+	background-image: url(lyrics/14.jpg);
+}
+
+.even38 {
+	background-image: url(lyrics/5.jpg);
+}
+
+.odd39 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even39 {
+	background-image: url(lyrics/8.jpg);
+}
+
+.odd40 {
+	background-image: url(lyrics/9.jpg);
+}
+
+.even40 {
+	background-image: url(lyrics/11.jpg);
+}
+
+
+.odd41 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even41 {
+	background-image: url(lyrics/5.jpg);
+}
+
+.odd42 {
+	background-image: url(lyrics/13.jpg);
+}
+
+.even42 {
+	background-image: url(lyrics/17.jpg);
+}
+
+
+.odd43 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even43 {
+	background-image: url(lyrics/long1.gif);
+}
+
+
+.odd44 {
+	background-image: url(lyrics/13.jpg);
+}
+
+.even44 {
+	background-image: url(lyrics/17.jpg);
+}
+
+.odd45 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.even45 {
+	background-image: url(lyrics/17.jpg);
+}
+
+
+.odd46 {
+	background-image: url(lyrics/6.jpg);
+}
+
+.even46 {
+	background-image: url(lyrics/9.jpg);
+}
+
+
+.odd47 {
+	background-image: url(lyrics/10.jpg);
+}
+
+.even47 {
+	background-image: url(lyrics/14.jpg);
+}
+
+
+
+.odd48 {
+	background-image: url(lyrics/1.jpg);
+}
+
+.even48 {
+	background-image: url(lyrics/3.jpg);
+}
+
+
+.odd49 {
+	background-image: url(lyrics/9.jpg);
+}
+
+.even49 {
+	background-image: url(lyrics/10.jpg);
+}
+
+
+
+.odd50 {
+	background-image: url(lyrics/12.jpg);
+}
+
+.even50 {
+	background-image: url(lyrics/5.jpg);
+}
+
+.odd51 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.even51 {
+	background-image: url(lyrics/12.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.odd52 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.even52 {
+	background-image: url(lyrics/long1.gif);
+}
+
+
+
+
+
+
+
+.odd53 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.even53 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.odd54 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even54 {
+	background-image: url(lyrics/short.gif);
+}
+
+.odd55 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.even55 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.odd56 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even56 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.odd57 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.even57 {
+	background-image: url(lyrics/short2.gif);
+}
+
+
+.odd58 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even58 {
+	background-image: url(lyrics/short77.gif);
+}
+
+.odd59 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.even59 {
+	background-image: url(lyrics/long1.gif);
+}
+
+
+.odd60 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even60 {
+	background-image: url(lyrics/short77.gif);
+}
+
+.odd61 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.even61 {
+	background-image: url(lyrics/short8.gif);
+}
+
+
+.odd62 {
+	background-image: url(lyrics/long3.gif);
+}
+
+.even62 {
+	background-image: url(lyrics/short77.gif);
+}
+
+
+.odd63 {
+	background-image: url(lyrics/short3.gif);
+}
+
+.even63 {
+	background-image: url(lyrics/short2.gif);
+}
+
+
+.odd64 {
+	background-image: url(lyrics/short8.gif);
+}
+
+.even64 {
+	background-image: url(lyrics/long1.gif);
+}
+
+.odd65 {
+	background-image: url(lyrics/1.jpg);
+}
+
+.even65 {
+	background-image: url(lyrics/8.jpg);
+}
+
+.odd66 {
+	background-image: url(lyrics/3.jpg);
+}
+
+.even66 {
+	background-image: url(lyrics/11.jpg);
+}
+
+.odd67 {
+	background-image: url(lyrics/15.jpg);
+}
+
+.even67 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.odd68 {
+	background-image: url(lyrics/12.jpg);
+}
+
+.even68 {
+	background-image: url(lyrics/17.jpg);
+}
+
+
+
+
+.odd69 {
+	background-image: url(lyrics/7.jpg);
+}
+
+.even69 {
+	background-image: url(lyrics/8.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
